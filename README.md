@@ -3,7 +3,7 @@
 A Google Tag Manager custom template for web containers. It loads the OpenAI Ads
 measurement pixel and reports browser events to your OpenAI pixel.
 
-## What it does
+## What the template does
 
 * Creates the `oaiq` queue before the SDK loads, so no call is lost while the
   script downloads.
@@ -17,7 +17,7 @@ measurement pixel and reports browser events to your OpenAI pixel.
 * Waits for `ad_storage` consent when you ask it to, and sends the event as soon
   as the visitor grants it.
 
-## Install
+## Installation
 
 1. In your web container, open **Templates**, then **Tag Templates**, then
    **New**.
@@ -150,3 +150,13 @@ img-src     https://bzr.openai.com
 
 OpenAI measurement pixel documentation:
 https://developers.openai.com/ads/measurement-pixel
+
+## Support
+
+Open an issue in this repository, or reach the team at
+[wascer.com](https://wascer.com). If you host your server container with Wascer,
+support is included in your plan.
+
+## License
+
+Apache License 2.0. See [LICENSE](LICENSE).
