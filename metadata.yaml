@@ -1,5 +1,8 @@
 homepage: "https://wascer.com"
 documentation: "https://github.com/wascer-tech/gtm-web-tag-openai-measurement-pixel"
+versions:
+  - sha: 6395393199040b873ca4b26db4d55381f3f9032c
+    changeNotes: Initial release.
 categories:
 - ADVERTISING
 - ANALYTICS
